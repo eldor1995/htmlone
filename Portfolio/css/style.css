@@ -1,0 +1,476 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.clearfix{
+  clear: both;
+}
+.main-banner{
+  background: url('../images/main-banner.png') no-repeat top center;
+  background-position: center;
+  background-size: cover;
+  min-height: 890px;
+}
+.blur-line{
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: #d144a9;
+  filter: blur(4px);
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.section-subtitle{
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 0.625rem; /* 10/16=0.625 */
+  color: #797979;
+}
+.section-title{
+  font-size: 2.62rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #05364b;
+  margin-top: 5px;
+}
+.about-me__desctription{
+  font-size: 24px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 27px;
+}
+.button{
+  border: none;
+  background: linear-gradient(to right,#1345e6 0%, #ed239f 51%,#1345e6 100%);
+  color: white;
+  background-size: 200% auto;
+  font-weight: 500;
+  font-size: 0.87rem;
+  padding: 1.26rem 2.5rem ;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover{
+  background-position: right center;
+}
+
+/* ==================== MAIN HEADER  ===================== */
+
+.main-header{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 /10%);
+  z-index: 10;
+}
+
+.main-header__brand{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand img{
+  width: 48px;
+}
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-header__item {
+  display: inline-block;
+  padding: 0.625rem;
+}
+.main-header__item a{
+  color: #05364b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.main-header__item a:hover{
+  color: #efb6df;
+}
+.main-header__item.active a{
+  color: #efb6df;
+}
+.to-uppercase{
+  text-transform: uppercase;
+}
+
+/* ====== Main Section ===== */
+.main-section {
+  padding: 6.25rem 1.875rem;
+}
+.main-section__img img{
+  width: 300px;
+}
+.main-section > div{
+  width: 50%;
+  float: left;
+}
+.main-section__img {
+  text-align: right;
+}
+
+.main-section__welcome{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  color: #797979;
+}
+.main-section__introduction{
+  margin: 1.25rem 0;
+  font-size: 3.75;
+  font-weight: 600;
+  color: #05364E;
+}
+
+.main-section__position{
+  color: #05364E;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+.main-section__button {
+  margin-top: 1.875rem;
+}
+.main-section__social-networks a{
+  color: #8fa1aa;
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.main-section__social-networks a:hover{
+  color: #1c44e4;
+}
+
+/* Statistics section */
+.statistics{
+  padding-top: 6.25rem;
+}
+
+.statistics__item{
+  display: inline-block;
+  background-color: #f4faff;
+  text-align: center;
+  width: 150px;
+  padding: 0.312rem 0.625rem;
+  margin-right: 1.875rem;
+}
+.statistics_number{
+  font-size: 1.68rem;
+  margin-bottom: 0.312rem;
+  background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.statistics_title{
+  font-size: 1rem;
+  color: #797979;
+  font-weight: 300;
+}
+
+/* ============== About me ============ */
+.about-me{
+  padding: 6.25rem 0;
+}
+.about-me > div{
+  width: 50%;
+  float: left;
+}
+
+.about-me__image img{
+  width: 300px;
+}
+
+.about-me__action{
+  margin-top: 2.5rem;
+}
+
+
+/*  =========== Services section style ================ */
+.services{
+  padding-top: 6.25rem;
+}
+.service-cards{
+  margin-top: 3.125rem;
+}
+
+.service-card{
+  display: inline-block;
+  width: 30%;
+  padding: 3.75rem 1.875rem;
+  background-color: #f8faff;
+  margin-right: 3%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.service-card__title{
+  color: #05364d;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+.service-card__description{
+  font-size: 0.875rem;
+  line-height: 1.687rem;
+  font-weight: 300;
+  color: #797979;
+}
+.service-card__link{
+  font-size: 0.812rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+  text-decoration: none;
+}
+.service-card__icon {
+  width: 80px;
+}
+.service-card:hover{
+  background-color: #5f30ff;
+}
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__description,
+.service-card:hover .service-card__link{
+  color: #ffffff;
+}
+
+/* ========= CLIENTS section =================*/
+.clients{
+  padding-top: 100px;
+}
+
+.client-item > div{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.client-item__image img{
+  width: 300px;
+}
+.client-item__info{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.client-item__name{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.client-item__position{
+  font-size: 14px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+
+.client-item__review{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+
+.client-item__rate {
+  color: #ffd805;
+}
+
+.client-item__rate .disabled {
+  color: #5b6d75;
+}
+
+
+/* =============== PORTFOLIO SECTION STYLE ======*/
+
+.portfolio{
+  margin-top: 100px;
+}
+.portfolio-items {
+  position: relative;
+  width: 100%;
+ 
+}
+.portfolio-item{
+  display: inline-block;
+  cursor: pointer;
+  width: 50%;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.portfolio-item-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+
+.portfolio-item__image{
+  width: 100%;
+}
+
+
+.portfolio-item__overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(19,69,230,0.9);
+  visibility: hidden;
+  z-index: 2;
+}
+
+.portfolio-item__info{
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: white;
+  visibility: hidden;
+  width: 50%;
+}
+.portfolio-item__info a{
+  color: white;
+  text-decoration: none;
+}
+.portfolio-item:hover .portfolio-item__overlay{
+  visibility: visible;
+  left: 30px;
+  top: 25px;
+  z-index: 1;
+}
+.portfolio-item:hover .portfolio-item__info{
+  visibility: visible;
+  bottom: 20px;
+  left: 45px;
+}
+
+
+/* ============== BLOG SECTION ======================  */
+.blog{
+  margin-top: 100px;
+}
+
+.blog-items{
+  margin-top: 50px;
+}
+
+.blog-item {
+  display: inline-block;
+  width: 30%;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
+.blog-item:hover{
+  box-shadow: 0px 10px 20px rgb(5 54 77/10%);
+}
+
+.blog-item:hover .blog-item__info{
+  background-color: white;
+}
+
+.blog-item__image img{
+  width: 100% ;
+}
+.blog-item__info{
+  background-color: #f8faff;
+  padding: 30px;
+  color: #797979;
+}
+.blog-item__main-info span{
+  font-size: 14px;
+  margin-right: 30px;
+  font-weight: lighter;
+}
+.blog-item__info i {
+  margin-right: 5px;
+}
+.blog-item__title{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #05364b;
+  font-weight: 700;
+}
+
+.blog-item__description{
+  line-height: 27px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.blog-item__learn-more{
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #05364d;
+  text-decoration: none;
+  cursor: pointer;
+}
+.blog-item__learn-more:hover{
+  color: #ed239f;
+}
+
+
+/* =============== PARTNERS SECTION ============== */
+
+.partners{
+  padding-top:100px;
+}
+
+.partner{
+  display: inline-block;
+  padding: 0 30px;
+}
+
+
+
+@media only screen and (max-width:767px) {
+ /* MAIN section */
+  .main-banner{
+    background: none;
+    min-height: auto;
+  }
+  .main-section__img{
+    display: none;
+  }
+  .main-section__button{
+    display: none;
+  }
+  .main-section >div {
+    width: 100%;
+  }
+  /*  statistics */
+  .statistics__item{
+    width: 97%;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  /* About me */
+  .about-me> div{
+    width: 100%;
+    text-align: center;
+  }
+  .about-me .button{
+    display: none;}
+
+    /* Services */
+
+    .services .service-card{
+      width: 97%;
+      box-sizing: border-box;
+      margin-top: 10px;
+    }
+  
+}
